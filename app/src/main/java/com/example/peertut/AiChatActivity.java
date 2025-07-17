@@ -38,7 +38,7 @@ public class AiChatActivity extends AppCompatActivity {
         // Initialize Gemini 2.0 Flash
         GenerativeModel gm = new GenerativeModel(
                 "gemini-2.0-flash",
-                "AIzaSyCIvXx9e3TFXjmlh5x4nx9fZRBTCuKwAe4"
+                "Enter-api-key"
         );
         model = GenerativeModelFutures.from(gm);
 
