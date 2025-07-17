@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8692f7</color>
+    <color name="white_alpha_80">#CCFFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="list_divider">#E0E0E0</color>
+    <color name="primary_light_color">#BB86FC</color>
+    <color name="secondary_color">#03DAC6</color>
+    <color name="error_color">#CF6679</color>
+    <color name="light_gray_background">#F5F5F5</color>
+    <color name="light_gray" />
+    <color name="dut_blue" />
+    <color name="dark_gray" />
+    <color name="dut_red" />
+    <color name="dut_dark_blue" />
+    <color name="divider_light" />
+    <color name="dut_green" />
+    <color name="primary_blue">#00519C</color>
+    <color name="accent_color">#FF9800</color>
+    <color name="primary_text">#212121</color>
+    <color name="card_stroke">#E0E0E0</color>
+    <color name="status_available">#4CAF50</color>
+    <color name="status_busy">#F44336</color>
+    <color name="available_green">#4CAF50</color>
+    <color name="booked_red">#F44336</color>
+    <color name="colorAvailable" />    <!-- Red -->
+    <color name="user_message_color">#2196F3</color>
+    <color name="other_message_color">#EEEEEE</color>
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="secondary_text">#757575</color>
+    <color name="light_grey">#FAFAFA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="error_red">#F44336</color>
+    <color name="transparent_black">#80000000</color>
+    <color name="message_read">#4CAF50</color>
+    <color name="message_unread">#BDBDBD</color>
+    <color name="green" />
+    <color name="star_rating" />
+    <color name="primaryColor">#6750A4</color>
+    <color name="secondaryColor">#E8DEF8</color>
+    <color name="background">#FEF7FF</color>
+    <color name="primaryText">#1C1B1F</color>
+    <color name="secondaryText">#49454F</color>
+    <color name="errorColor">#B3261E</color>
+    <color name="tutor_background">#F8F9FA</color>
+    <color name="tutor_primary">#2E7D32</color>
+    <color name="tutor_chip_background">#E8F5E9</color>
+    <color name="colorTextPrimary">#DE000000</color> <!-- 87% black -->
+    <color name="colorTextSecondary">#99000000</color> <!-- 60% black -->
+    <color name="colorTextHint">#61000000</color> <!-- 38% black -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#673AB7</color>  <!-- Deep Purple -->
+    <color name="colorPrimaryDark">#3F51B5</color>  <!-- Indigo -->
+    <color name="colorPrimaryLight">#D1C4E9</color>  <!-- Light Purple -->
+
+    <!-- Secondary colors -->
+    <color name="colorSecondary">#FFC107</color>  <!-- Amber -->
+    <color name="colorSecondaryDark">#FFA000</color>  <!-- Dark Amber -->
+    <color name="colorSecondaryLight">#FFECB3</color>  <!-- Light Amber -->
+
+    <!-- Other colors -->
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#F44336</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#212121</color>
+    <color name="colorOnSurface">#212121</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorDivider">#1F000000</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbar" type="id" />
+    <item name="profileCard" type="id" />
+    <item name="searchCard" type="id" />
+    <item name="appbar" type="id" />
+    <item name="manageAvailabilityButton" type="id" />
+    <item name="editSubjectsButton" type="id" />
+    <item name="availabilityStatusTextView" type="id" />
+    <item name="subjectsTextView" type="id" />
+    <item name="manageBookingsButton" type="id" />
+    <item name="academicLevelTextView" type="id" />
+    <item name="institutionTextView" type="id" />
+    <item name="ageTextView" type="id" />
+    <item name="goalsTextView" type="id" />
+    <item name="sendVerificationBtn" type="id" />
+    <item name="verificationStatus" type="id" />
+    <item name="verifyEmailBtn" type="id" />
+    <item name="roleGroup" type="id" />
+    <item name="radioTutor" type="id" />
+    <item name="radioTutee" type="id" />
+</resources>

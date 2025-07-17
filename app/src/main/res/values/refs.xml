@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="user_message_bg" />
+    <drawable name="other_message_bg" />
+    <drawable name="sent_message_bg" />
+    <drawable name="received_message_bg" />
+</resources>

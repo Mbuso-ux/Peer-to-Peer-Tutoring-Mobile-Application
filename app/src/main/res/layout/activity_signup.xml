@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email (DUT only)"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/institutionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Institution"
+            android:inputType="text" />
+
+        <RadioGroup
+            android:id="@+id/roleGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <RadioButton
+                android:id="@+id/radioTutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutor" />
+
+            <RadioButton
+                android:id="@+id/radioTutee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutee" />
+        </RadioGroup>
+
+        <!-- Tutee Fields -->
+        <LinearLayout
+            android:id="@+id/tuteeFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/subjectsInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subjects (comma-separated)" />
+
+            <EditText
+                android:id="@+id/academicLevelInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Academic Level" />
+
+            <EditText
+                android:id="@+id/ageInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/goalsInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Short-Term Goals" />
+        </LinearLayout>
+
+        <!-- Tutor Fields -->
+        <LinearLayout
+            android:id="@+id/tutorFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/degreesInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Degrees (comma-separated)" />
+
+            <EditText
+                android:id="@+id/institutionsAttendedInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Institutions Attended (comma-separated)" />
+
+            <EditText
+                android:id="@+id/experienceInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teaching Experience" />
+
+            <EditText
+                android:id="@+id/philosophyInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teaching Philosophy" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendVerificationBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register and Send Verification"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/verificationStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

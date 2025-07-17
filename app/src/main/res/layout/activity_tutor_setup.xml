@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp" android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Enter subjects (comma separated):" />
+
+    <EditText
+        android:id="@+id/subjectsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. Math, Physics, Chemistry"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/saveSubjectsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Subjects" />
+</LinearLayout>

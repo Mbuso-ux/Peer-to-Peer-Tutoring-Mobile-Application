@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_profile_placeholder"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/uploadPicBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Photo"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/roleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Role"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/institutionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Institution" />
+
+        <!-- Tutee Fields -->
+        <EditText
+            android:id="@+id/subjectsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subjects (comma-separated)" />
+
+        <EditText
+            android:id="@+id/academicLevelInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Academic Level" />
+
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/goalsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Short-Term Goals" />
+
+        <!-- Tutor Fields -->
+        <EditText
+            android:id="@+id/degreesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Degrees (comma-separated)" />
+
+        <EditText
+            android:id="@+id/institutionsAttendedInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Institutions Attended (comma-separated)" />
+
+        <EditText
+            android:id="@+id/experienceInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teaching Experience" />
+
+        <EditText
+            android:id="@+id/philosophyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teaching Philosophy" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

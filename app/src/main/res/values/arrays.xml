@@ -1,0 +1,15 @@
+<resources>
+    <string-array name="quiz_status_options">
+        <item>All Statuses</item>
+        <item>Active</item>
+        <item>Completed</item>
+        <item>Expired</item>
+    </string-array>
+
+    <string-array name="quiz_sort_options">
+        <item>Due Date (Oldest First)</item>
+        <item>Due Date (Newest First)</item>
+        <item>Title (A-Z)</item>
+        <item>Title (Z-A)</item>
+    </string-array>
+</resources>

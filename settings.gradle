@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://repo.agora.io/repository/maven-public"
+            content {
+                includeGroup("io.agora.rtc")
+            }
+        }
+    }
+}
+
+rootProject.name = "peertut"
+include ':app'

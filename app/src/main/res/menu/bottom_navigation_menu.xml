@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/viewResourcesButton"
+        android:icon="@drawable/ic_resources"  android:title="Resources" />
+
+    <item
+        android:id="@+id/viewQuizzesButton"
+        android:icon="@drawable/ic_quizzes"    android:title="Quizzes" />
+
+    <item
+        android:id="@+id/viewBookingsButton"
+        android:icon="@drawable/ic_bookings"   android:title="Bookings" />
+
+    <item
+        android:id="@+id/viewRatingsButton"
+        android:icon="@drawable/ic_ratings"    android:title="Ratings" />
+</menu>

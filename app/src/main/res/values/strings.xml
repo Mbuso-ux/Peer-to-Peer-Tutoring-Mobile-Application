@@ -1,0 +1,72 @@
+<resources>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_yet_registered_sign_up">Not yet registered? Sign up</string>
+    <string name="Loginn">Login</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup">SignUp</string>
+    <string name="app_logo" />
+    <string name="profile_avatar" />
+    <string name="booked_by">Booked by:</string>
+    <string name="subject">Subject:</string>
+    <string name="booked">BOOKED</string>
+    <string name="available">AVAILABLE</string>
+    <string name="error_loading_tutee">Error loading tutee</string>
+    <string name="optional_comments">Optional comments</string>
+    <string name="enter_your_feedback">Enter your feedback</string>
+    <string name="make_this_feedback_public">Make this feedback public</string>
+    <string name="average_rating_0_0_5">Average Rating: 0.0/5</string>
+    <string name="what_went_well_or_could_be_improved">What went well or could be improved?</string>
+    <string name="my_bookings" />
+    <string name="my_ratings" />
+    <string name="search_tutors" />
+    <string name="upload_resource">\n\n</string>
+    <string name="upload_quiz" />
+    <string name="view_bookings" />
+    <string name="view_resources" />
+    <string-array name="booking_status_array">
+        <item>All</item>
+        <item>Pending</item>
+        <item>Confirmed</item>
+        <item>Completed</item>
+        <item>Cancelled</item>
+    </string-array>
+    <string-array name="academic_levels">
+        <item>Select academic level</item>
+        <item>Undergraduate</item>
+        <item>Postgraduate</item>
+        <item>Diploma</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="filter_by_status">Filter by status</string>
+    <string name="subject_s">Subject: %s</string>
+    <string name="scheduled_for_s">Scheduled for %s</string>
+    <string name="list_of_booked_tutoring_sessions">List of booked tutoring sessions</string>
+    <string name="enter_your_feedback_here">Enter your feedback here...</string>
+    <string name="agora_app_id">5f2b3c8e3c34482589f78ffeebd6132a</string>
+    <string name="app_name">Peer Tutoring</string>
+    <string name="search_hint">Search tutors...</string>
+    <string name="resources">Resources</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="bookings">Bookings</string>
+    <string name="profile_image_desc">Profile image</string>
+    <string name="welcome">Welcome, %1$s</string>
+    <string name="logout">Logout</string>
+    <string name="manage_profile">Manage Profile</string>
+    <string name="ratings">Ratings</string>
+    <string name="profile">Profile</string>
+    <string name="your_subjects">Your Subjects</string>
+    <string name="edit_subjects">Edit Subjects</string>
+    <string name="availability">Availability</string>
+    <string name="manage_availability">Manage Availability</string>
+    <string name="your_ratings">Your Ratings</string>
+    <string name="view_ratings">View Ratings</string>
+    <string name="upload_resources">Upload Resources</string>
+    <string name="upload_quizzes">Upload Quizzes</string>
+    <string name="manage_bookings">Manage Bookings</string>
+    <string name="join_class">Join Class</string>
+
+</resources>
