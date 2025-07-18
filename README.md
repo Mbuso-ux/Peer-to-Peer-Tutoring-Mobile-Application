@@ -25,11 +25,11 @@
 
 - [🎯 About](#-about)
 - [✨ Features](#-features)
-- [🛠️ Tech Stack](#️-tech-stack)
+- [🛠️ Tech Stack](#-tech-stack)
 - [📱 Screenshots](#-screenshots)
 - [🚀 Getting Started](#-getting-started)
 - [📋 Prerequisites](#-prerequisites)
-- [⚙️ Installation](#️-installation)
+- [⚙️ Installation](#-installation)
 - [🎮 Usage](#-usage)
 - [🔧 Configuration](#-configuration)
 - [🤝 Contributing](#-contributing)
@@ -82,8 +82,8 @@ To bridge the gap between students seeking academic help and those willing to sh
 • **Smart Recommendations**: AI-suggested tutoring matches
 • **Learning Analytics**: Track your progress with AI insights
 
-    </td>
-    <td width="50%">
+  </td>
+  <td width="50%">
       
 ### 📞 **Communication & Collaboration**
 • **Video Calling**: Built-in 30-minute sessions with Agora SDK
@@ -95,7 +95,7 @@ To bridge the gap between students seeking academic help and those willing to sh
 • **Resource Sharing**: Upload and access study materials
 • **Feedback System**: Rate and review tutoring sessions
 
-    </td>
+  </td>
   </tr>
 </table>
 
@@ -182,7 +182,7 @@ To bridge the gap between students seeking academic help and those willing to sh
 • Android SDK Platform 35
 • Git version control
 
-    </td>
+  </td>
     <td>
       
 **☁️ Cloud Services**
@@ -191,7 +191,7 @@ To bridge the gap between students seeking academic help and those willing to sh
 • Cloud Messaging setup
 • Crashlytics enabled
 
-    </td>
+  </td>
   </tr>
 </table>
 
@@ -271,7 +271,7 @@ cd Peer-to-Peer-Tutoring-Mobile-Application
 • Access shared resources
 • View performance analytics
 
-    </td>
+  </td>
   </tr>
 </table>
 
@@ -371,8 +371,8 @@ Ensure `google-services.json` is properly configured with:
 ./gradlew testDebugUnitTest --tests "*.YourTestClass"
 ```
 
-    </td>
-    <td width="50%">
+  </td>
+  <td width="50%">
       
 ### 📱 **Instrumented Tests**
 ```bash
@@ -383,7 +383,7 @@ Ensure `google-services.json` is properly configured with:
 ./gradlew connectedDebugAndroidTest
 ```
 
-    </td>
+  </td>
   </tr>
 </table>
 
@@ -416,8 +416,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
   
   <div align="center">
     <i>⭐ If you found this project helpful, please give it a star!</i>
-    <br><br>
-    <strong>📚 Made with ❤️ for DUT Students</strong>
   </div>
   
 </div>
